@@ -38,7 +38,7 @@
 
 #define RELE D7
 #define BLYNK_PRINT Serial
-#define ONE_WIRE_BUS D4
+#define ONE_WIRE_BUS    D4  //DS18b20
 #define MH_Z19_RX       D5  //AKA GPIO14
 #define MH_Z19_TX       D8  //AKA GPIO15
 
@@ -89,7 +89,6 @@ void setup()
   co2Serial.begin(9600); //Init sensor MH-Z19(14)
   timer.setInterval(10000L, myTimerEvent);
   sensors.begin();
-  //dht.begin();
   myHumidity.begin();
  }
 
