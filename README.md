@@ -1,4 +1,4 @@
-Home air monitor is based on the development board NodeMCU (CP2102 version). It includes a temperature sensor - ds18b20, a humidity sensor - HTU21D, a carbon dioxide sensor MNH-Z19. It is also possible to connect one more i2c sensor and a radio module to 433 MHz.
+Home air monitor is based on the development board NodeMCU (CP2102 version). It includes a temperature sensor - ds18b20, a humidity sensor - HTU21D, a carbon dioxide sensor MH-Z19. It is also possible to connect one more i2c sensor and a radio module to 433 MHz.
 
 The software is basen on Blynk.
 
